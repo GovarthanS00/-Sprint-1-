@@ -9,8 +9,6 @@ class DataLoader:
         self.file_path = file_path
 
 
-
-
     def validate_path(self):
         if not self.file_path:
             raise ValueError("File path cannot be empty.")
@@ -33,8 +31,7 @@ class DataLoader:
     def get_file_extension(self):
         extension = os.path.splitext(self.file_path)[1].lower()
         return extension
-
-
+    
 
     def read_csv(self):
         return pd.read_csv(self.file_path)

@@ -21,9 +21,7 @@ class DataWriter:
         extension = os.path.splitext(self.file_path)[1].lower()
         return extension
 
-    # -----------------------------------
-    # Save CSV File
-    # -----------------------------------
+
     def save_csv(self, data):
 
         if isinstance(data, pd.DataFrame):
@@ -35,9 +33,7 @@ class DataWriter:
 
         print(f"CSV file saved successfully: {self.file_path}")
 
-    # -----------------------------------
-    # Save JSON File
-    # -----------------------------------
+
     def save_json(self, data):
 
         with open(
@@ -55,9 +51,7 @@ class DataWriter:
 
         print(f"JSON file saved successfully: {self.file_path}")
 
-    # -----------------------------------
-    # Save Pickle File
-    # -----------------------------------
+
     def save_pickle(self, data):
 
         with open(
@@ -69,9 +63,7 @@ class DataWriter:
 
         print(f"Pickle file saved successfully: {self.file_path}")
 
-    # -----------------------------------
-    # Save TXT File
-    # -----------------------------------
+
     def save_txt(self, data):
 
         with open(
@@ -84,9 +76,7 @@ class DataWriter:
 
         print(f"TXT file saved successfully: {self.file_path}")
 
-    # -----------------------------------
-    # Main Write Method
-    # -----------------------------------
+
     def write(self, data):
 
         extension = self.get_file_extension()

@@ -1,0 +1,41 @@
+2026-09-10 12:26:11,845 - INFO - Application started
+2026-09-10 12:26:33,552 - INFO - Application started
+2026-09-10 12:27:05,055 - ERROR - Application error: File not found: csv
+2026-09-10 12:27:05,056 - INFO - Application execution completed
+2026-09-10 12:28:08,498 - INFO - Application started
+2026-09-10 12:28:48,339 - ERROR - Application error: File not found: JSON
+2026-09-10 12:28:48,339 - INFO - Application execution completed
+2026-09-10 12:31:58,765 - INFO - Application started
+2026-09-10 12:32:27,449 - ERROR - Application error: File not found: employees
+2026-09-10 12:32:27,449 - INFO - Application execution completed
+2026-09-10 12:32:42,802 - INFO - Application started
+2026-09-10 12:32:56,472 - ERROR - Application error: File not found: employees.csv
+2026-09-10 12:32:56,473 - INFO - Application execution completed
+2026-09-10 12:36:48,372 - INFO - Application started
+2026-09-10 12:36:57,723 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/employees.csv
+2026-09-10 12:37:51,330 - WARNING - Invalid output choice
+2026-09-10 12:37:51,331 - INFO - Application execution completed
+2026-09-10 12:39:28,521 - INFO - Application started
+2026-09-10 12:39:34,198 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/employees.csv
+2026-09-10 12:39:39,718 - ERROR - Application error: 'DataFrame' object has no attribute 'file_path'
+2026-09-10 12:39:39,719 - INFO - Application execution completed
+2026-09-10 12:42:32,588 - INFO - Application started
+2026-09-10 12:44:16,086 - ERROR - Application error: File not found: "C:\Users\acer\Documents\assesment\tas_submission.txt"
+2026-09-10 12:44:16,086 - INFO - Application execution completed
+2026-09-10 12:50:02,039 - INFO - Application started
+2026-09-10 12:50:22,943 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/students.txt
+2026-09-10 12:50:36,734 - ERROR - Application error: DataFrame constructor not properly called!
+2026-09-10 12:50:36,734 - INFO - Application execution completed
+2026-09-10 12:56:15,508 - INFO - Application started
+2026-09-10 12:56:30,098 - ERROR - Application error: File not found: C:\Users\acer\Documents\assesment\tas_submission.txt
+2026-09-10 12:56:30,099 - INFO - Application execution completed
+2026-09-10 12:56:55,125 - INFO - Application started
+2026-09-10 12:57:05,834 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/students.txt
+2026-09-10 12:57:48,109 - ERROR - Application error: DataFrame constructor not properly called!
+2026-09-10 12:57:48,110 - INFO - Application execution completed
+2026-09-10 13:02:27,184 - INFO - Application started
+2026-09-10 13:02:37,757 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/students.txt
+2026-09-10 13:02:40,596 - INFO - Application execution completed
+2026-09-10 13:42:21,066 - INFO - Application started
+2026-09-10 13:43:09,632 - INFO - Successfully loaded file: /workspaces/-Sprint-1-/data/employees.csv
+2026-09-10 13:43:14,305 - INFO - Application execution completed

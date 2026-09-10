@@ -71,3 +71,17 @@ class DataLoader:
             raise ValueError(
                 f"Unsupported file format: {extension}"
             )
+
+
+loader = DataLoader("data/employees.csv")
+data = loader.load()
+print(data)
+
+
+loader = DataLoader("data/employees.json")
+data = loader.load()
+print(data)
+
+loader = DataLoader("data/students.txt")
+data = loader.load()
+print(data)

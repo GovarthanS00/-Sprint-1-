@@ -9,15 +9,14 @@ class DataWriter:
     def __init__(self, file_path):
         self.file_path = file_path
 
-        # Create output directory if it doesn't exist
+
         directory = os.path.dirname(file_path)
 
         if directory:
             os.makedirs(directory, exist_ok=True)
 
-    # -----------------------------------
-    # Get File Extension
-    # -----------------------------------
+
+
     def get_file_extension(self):
         extension = os.path.splitext(self.file_path)[1].lower()
         return extension
